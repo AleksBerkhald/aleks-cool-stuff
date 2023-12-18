@@ -12,6 +12,8 @@ body {
 header, footer, main, button, p, h1, h2, h3 {
   text-shadow: 2px 2px 4px #000;
   color: #fff;
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
 }
 
 header, footer {
@@ -28,15 +30,16 @@ main {
   flex: 1;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 50);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#mainComic {
-  margin-bottom: 20px;
+img {
+  width: 100%;
 }
 
 #newComic {
   text-align: center;
+  width: 100%;
 }
 
 button {
@@ -50,7 +53,7 @@ button {
   font-weight: bold;
   font-family: 'Comic Sans MS', sans-serif;
   border-radius: 8px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 50);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 600px) {
