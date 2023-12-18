@@ -12,8 +12,8 @@ body {
 header, footer, main, button, p, h1, h2, h3 {
   text-shadow: 2px 2px 4px #000;
   color: #fff;
-  margin: 0; /* Remove default margins */
-  padding: 0; /* Remove default padding */
+  margin: 0;
+  padding: 0;
 }
 
 header, footer {
